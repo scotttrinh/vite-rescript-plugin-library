@@ -1,0 +1,17 @@
+{
+  "name": "vite-react-rescript-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "clean": "rescript clean -with-deps",
+    "format": "rescript format -all",
+    "start": "vite"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@jihchi/vite-plugin-rescript": "^2.1.0",
+    "rescript": "^9.1.3"
+  }
+}
